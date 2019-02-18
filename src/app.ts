@@ -2,6 +2,7 @@ import express from 'express';
 import socketio from 'socket.io';
 import http from 'http';
 import "reflect-metadata";
+import { WorkItem } from '@rjfreund/accomplishments-models';
 
 var port = process.env.PORT==undefined ? 3000 : process.env.PORT;
 const app = express();
